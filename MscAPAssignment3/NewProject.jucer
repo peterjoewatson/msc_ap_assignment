@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="SVnwWN" name="MscAPAssignment3" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginVST3Category="Instrument">
   <MAINGROUP id="ENeFGe" name="MscAPAssignment3">
     <GROUP id="{91A31150-F321-7460-F598-367E94D4D821}" name="Source">
-      <FILE id="wq9rGK" name="MyAmp.h" compile="0" resource="0" file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/MyAmp.h"/>
-      <FILE id="QjbEr5" name="MyDelay.h" compile="0" resource="0" file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/MyDelay.h"/>
-      <FILE id="KWVo1f" name="MyFilter.h" compile="0" resource="0" file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/MyFilter.h"/>
-      <FILE id="SXnJ7A" name="MyLfo.h" compile="0" resource="0" file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/MyLfo.h"/>
-      <FILE id="pFvw0C" name="MyNoiseGenerator.h" compile="0" resource="0"
-            file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/MyNoiseGenerator.h"/>
-      <FILE id="wsuGWR" name="MyOscillator.h" compile="0" resource="0" file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/MyOscillator.h"/>
-      <FILE id="U6b2bW" name="MyParameters.h" compile="0" resource="0" file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/MyParameters.h"/>
-      <FILE id="Bs1cP5" name="MyReverb.h" compile="0" resource="0" file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/MyReverb.h"/>
-      <FILE id="ocYrA9" name="MySynth.h" compile="0" resource="0" file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/MySynth.h"/>
-      <FILE id="eme3jI" name="PluginEditor.cpp" compile="1" resource="0"
-            file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/PluginEditor.cpp"/>
-      <FILE id="gUuT34" name="PluginEditor.h" compile="0" resource="0" file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/PluginEditor.h"/>
-      <FILE id="z2Zqfz" name="PluginProcessor.cpp" compile="1" resource="0"
-            file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/PluginProcessor.cpp"/>
-      <FILE id="ANrs3F" name="PluginProcessor.h" compile="0" resource="0"
-            file="../../../Dropbox/Peter/Masters/Semester 2/Audio Programming/Assignment3/submission/Source/PluginProcessor.h"/>
-      <FILE id="YK41Bn" name="PluginProcessor.cpp" compile="1" resource="0"
-            file="Source/PluginProcessor.cpp"/>
-      <FILE id="iRsSiY" name="PluginProcessor.h" compile="0" resource="0"
-            file="Source/PluginProcessor.h"/>
-      <FILE id="mjdSRt" name="PluginEditor.cpp" compile="1" resource="0"
+      <FILE id="FPNYcR" name="MyAmp.h" compile="0" resource="0" file="Source/MyAmp.h"/>
+      <FILE id="E6JrSt" name="MyDelay.h" compile="0" resource="0" file="Source/MyDelay.h"/>
+      <FILE id="NjIgRx" name="MyFilter.h" compile="0" resource="0" file="Source/MyFilter.h"/>
+      <FILE id="b0n37D" name="MyLfo.h" compile="0" resource="0" file="Source/MyLfo.h"/>
+      <FILE id="LZWCLy" name="MyNoiseGenerator.h" compile="0" resource="0"
+            file="Source/MyNoiseGenerator.h"/>
+      <FILE id="SJjcFn" name="MyOscillator.h" compile="0" resource="0" file="Source/MyOscillator.h"/>
+      <FILE id="qhU5OE" name="MyParameters.h" compile="0" resource="0" file="Source/MyParameters.h"/>
+      <FILE id="GJyx4N" name="MyReverb.h" compile="0" resource="0" file="Source/MyReverb.h"/>
+      <FILE id="iTYG8N" name="MySynth.h" compile="0" resource="0" file="Source/MySynth.h"/>
+      <FILE id="cmsR1F" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
-      <FILE id="yQDEdn" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="OAcAJn" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="C8fqh2" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="iFsj6D" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
